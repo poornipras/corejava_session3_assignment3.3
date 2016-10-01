@@ -1,0 +1,14 @@
+3.3 What would happen when the following is compiled and executed.
+
+Answer:No values are assigned to the instance variables x,y and name...so it assigns default values null, 0 and 0
+so Answer is d. pnt null 0 0
+
+class example {
+ int x; int y;
+ String name;
+ public static void main(String args[]) {
+ example pnt = new example();
+ System.out.println ("pnt is " + pnt.name + " " + pnt.x + " " + pnt.y);
+} }
+
+
